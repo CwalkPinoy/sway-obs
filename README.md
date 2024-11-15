@@ -22,3 +22,8 @@ install qtwebkit
 ~/.config/sway/config
 exec --no-startup-id dbus-update-activation-environment --all
 exec gentoo-pipewire-launcher restart &
+
+waybar
+
+set $menu bemenu-run -H 26--no-exec -p  "" | xargs swaymsg exec --
+

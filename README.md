@@ -24,3 +24,11 @@ exec --no-startup-id dbus-update-activation-environment --all
 exec gentoo-pipewire-launcher restart &
 
 
+
+
+probably one of these things did it
+
+/etc/portage/make.conf
+USE="pulseaudio pipewire wayland screencast gstreamer gles2"
+
+install qtwebkit

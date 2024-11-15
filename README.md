@@ -14,7 +14,8 @@ Type=Application
 USE="pulseaudio pipewire wayland screencast gstreamer gles2"
 
 /etc/portage/package.use/obs
-USE="pulseaudio pipewire wayland screencast gstreamer gles2"
+media-video/obs-studio pipewire
+media-video/pipewire dbus
 
 install qtwebkit
 
